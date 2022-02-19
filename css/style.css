@@ -1,0 +1,190 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Taviraj&display=swap');
+@font-face {
+   font-family: "Scotch Modern";
+   src: url("../fonts/ScotchModern-Bold.woff2") format("woff2"), url("../fonts/ScotchModern-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Scotch Modern';
+   src: url("../fonts/ScotchModern.woff2") format("woff2"),url("../fonts/ScotchModern.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+.wrapper {
+   overflow: hidden;
+   max-width: 810px;
+   margin: 50px auto;
+}
+body{
+   font-family: "Lato";
+}
+.title-figma {
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+margin-bottom: 26px;
+color: #1E212C;
+}
+
+.content-2{
+max-width: 390px;
+}
+h6 {
+text-transform: uppercase;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.list li, .list-2 li {
+   background: url("../img/check.png") 0 0  no-repeat ;
+   padding-left: 32px;
+}
+.list-2{
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+   margin-bottom: 22px;
+}
+.button{
+   display: inline-block;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 3.14;
+   text-align: center;
+   letter-spacing: 0.5px;
+   color: #FFFFFF;
+   padding: 0 32px;
+   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   border-radius: 4px;
+   margin-bottom: 50px;
+}
+.maple {
+   display: inline-block;
+   font-size: 36px;
+   color: #333333;
+   letter-spacing: 0.02em;
+   line-height: 1.1;
+   font-family: "Taviraj", "serif";
+   margin-bottom: 40px;
+}
+.maple::after {
+   content: "";
+   display: block;
+   height: 1px;
+   width: 65px;
+   margin: 8px 0 0 0;
+   background-color: #000;
+}
+/*Стили для статьи*/
+.wrapper-1 {
+   overflow: hidden;
+   max-width: 810px;
+   margin: 50px auto;
+   background: url("../img/fon.jpg"), 0   no-repeat;
+}
+.body-1 {
+   background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(229,30,242,1) 100%);
+}
+.block-1:hover {
+   border: 5px dashed rgba(96, 233, 5, 0.747);
+}
+.block-2 a  {
+   color: rgb(55, 0, 255); 
+}
+.block-2 a:visited {
+   color: rgb(0, 255, 157); 
+}
+.block-3 a:focus {
+   outline: 3px solid #F75E05;
+}
+
+.block-1 *:first-child {
+   background-color: #fff;
+}
+.block-1 *:last-child {
+   background-color: rgb(2, 133, 209);
+}
+.block-3 p:first-of-type {
+   background-color: #fff4;
+}
+.block-2 p:first-line {
+   color: rgba(195,34,34,1);
+}
+.block-2 p::before {
+   content: "Я before ";
+   color: yellow;
+}
+.block-2 p::after {
+   content: " Я after";
+   color: yellow;
+}
+a.link {
+   font-family: "Lora",serif;
+   line-height: 1.7;
+   font-size: 30px;
+   color:indianred;
+}
+nav {
+   border: 5px dashed rgba(211, 12, 128, 0.952);
+   border-radius: 10px;
+   padding-left: 40px;
+   background: url("../img/fon_5.jpg") 0 0/cover no-repeat; 
+}
+.link.figma{
+   color:rgb(243, 11, 212);
+}
+.title,h2{
+   color:#e71c71f5;
+   font-family: "Scotch Modern",sans-serif;
+   text-align: center;
+   font-weight: 700;
+}
+.title {
+   font-size: 64px;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   text-shadow: 3px 3px 3px rgba(199, 44, 44, 0.945);
+   margin: 0px 0px 30px auto;
+   text-align: right;
+}
+h2{
+   font-size: 32px;
+   margin: 20px;
+}
+
+.block-1, .block-2, .block-3, .block-4 {
+   font-family: "Lora",serif;
+   font-size: 18px;
+   line-height: 1.7;
+   text-align: justify;
+   text-indent: 40px;
+   font-weight: 700;
+}
+.content-text-scroll{
+   height: 150px;
+   overflow: scroll;
+}
+.content-text-end{
+   height: 300px;
+   overflow: hidden;
+}
+.bold-text {
+   font-family: "Caveat", cursive;
+   font-size: 30px;
+   line-height: 1.5;
+   text-align: center;
+   margin: 25px 0;
+   max-width: 700px;
+}
+
+.block-1 img, .block-2 img, .block-3 img, .block-4 img {
+   padding: 40px;
+}
